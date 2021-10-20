@@ -15,19 +15,19 @@ $(function(){
     });
 
     $("#radio1").change(function(){
-        $(".slides").css("background-image","url(/images/slider-imagenes/imagen-1.jpg)")
+        $(".slides").css("background-image","url(images/slider-imagenes/imagen-1.jpg)")
         $("#slide").html("<h2>DISFRUTA UN CAFÉ 100% ORGÁNICO </h2><p>Encuentra tu variedad favorita de <span>Dreams Coffee.</span></p>");
     });
     $("#radio2").change(function(){
-        $(".slides").css("background-image","url(/images/slider-imagenes/imagen-2.jpg)")
+        $(".slides").css("background-image","url(images/slider-imagenes/imagen-2.jpg)")
         $("#slide").html("<h2>¿LISTO PARA DESPERTAR?</h2><p>Tu día comienza aquí.</p>");
     });
     $("#radio3").change(function(){
-        $(".slides").css("background-image","url(/images/slider-imagenes/imagen-3.jpg)")
+        $(".slides").css("background-image","url(images/slider-imagenes/imagen-3.jpg)")
         $("#slide").html("<h2>SOLO PARA AMANTES DEL VERDADERO CAFÉ</h2><p>Desconéctate de la rutina, conéctate con nosotros.</p>");
     });
     $("#radio4").change(function(){
-        $(".slides").css("background-image","url(/images/slider-imagenes/imagen-4.jpg)")
+        $(".slides").css("background-image","url(images/slider-imagenes/imagen-4.jpg)")
         $("#slide").html("<h2>DISFRUTAR DE UN BUEN CAFÉ<br>NUNCA FUE TAN FÁCIL.</h2>");
     });
     
