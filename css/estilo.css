@@ -41,7 +41,6 @@ hr{
     max-width: 140px;
 }
 
-/* Logo pequeño alogado en la barra de navegación */
 .logo-small{
     float: left;
     display: block;
@@ -60,7 +59,6 @@ hr{
     max-width: 40px;
 }
 
-/*Barra de navegacion*/
 .navegacion{
     float: left;
     background-color: rgb(251,242,219); 
@@ -114,7 +112,7 @@ body.nav_fixed .navegacion{
 body.nav_fixed .navegacion .envoltura{
     left: 0;
 }
-/* Boton de navegacion en pantallas inferiores a los 800px */
+
 .boton-menu{
     box-sizing: border-box;
     width: 50px;
@@ -337,8 +335,7 @@ body.nav_fixed .navegacion .envoltura{
     border-radius: 10px;
     box-shadow: 0px 0px 5px black;
     padding: 20px;
-    width: 460px;
-    
+    width: 460px;  
 }
 #form label,
 #form input,
@@ -376,7 +373,7 @@ body.nav_fixed .navegacion .envoltura{
     background-color: rgb(48, 48, 48);
     border: 1px solid rgb(48, 48, 48);
 }
-/* Menu de navegacion responsivo */
+
 @media screen and (max-width:1050px) {
     nav a:hover{
         border-top:transparent;
