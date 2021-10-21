@@ -441,7 +441,7 @@ body.nav_fixed .navegacion .envoltura{
     #slide p,span{
         font-size: 25px;
         position: absolute;
-        left: -400px;
+        left: -800px;
     }
     .texto-pagina{
         display: flex;
