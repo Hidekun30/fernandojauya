@@ -29,8 +29,7 @@ $(function(){
     $("#radio4").change(function(){
         $(".slides").css("background-image","url(/images/slider-imagenes/imagen-4.jpg)")
         $("#slide").html("<h2>DISFRUTAR DE UN BUEN CAFÉ<br>NUNCA FUE TAN FÁCIL.</h2>");
-    });
-    $( "#tabs" ).tabs();  
+    });  
 });
 
 
