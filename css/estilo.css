@@ -5,9 +5,6 @@
 }
 body{
     background-color: rgb(163, 56, 53);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:bottom center;
 }
 body.nav_fixed .navegacion{
     position: fixed;
@@ -98,6 +95,7 @@ iframe{
 .boton-menu{
     background-color: rgb(129, 1, 1);
     color: rgb(251,242,219);
+    border-shadow: 0px 0px 5px rgb(0,0,0);
     box-sizing: border-box;
     width: 50px;
     height: 50px;
